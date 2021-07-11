@@ -1,0 +1,130 @@
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Montserrat", "Noto Sans KR", sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+input {
+  display: block;
+  outline: transparent;
+  border: none;
+}
+.hidden {
+  display: none;
+}
+
+/* CLOCK */
+h2 {
+  font-size: 80px;
+}
+
+/* LOGIN FORM */
+#login-form {
+  margin: 20px auto;
+}
+#login-form input[type="text"] {
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+#login-form input[type="submit"] {
+  font-size: 20px;
+  color: #fff;
+  line-height: 20px;
+  margin: 20px auto;
+  padding: 10px 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #333;
+}
+#login-form input[type="submit"]:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+/* TODO LIST */
+.todo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 30px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.todo h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#todo-form input {
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+  padding: 10px 0;
+  color: #fff;
+}
+#todo-form input::placeholder {
+  font-size: 18px;
+  color: #fff;
+}
+#todo-list {
+  margin-top: 15px;
+}
+#todo-list li {
+  margin: 5px auto;
+}
+#todo-list li span {
+  font-size: 16px;
+  font-weight: 300;
+}
+#todo-list li:hover span {
+  opacity: 0.5;
+}
+
+/* QUOTE */
+#quote {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#quote span {
+  margin: 10px;
+}
+#quote span:last-child::before {
+  content: "by";
+  margin-right: 5px;
+}
+
+/* WEATHER */
+#weather {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+
+#weather span:first-child {
+  margin-bottom: 10px;
+}
+#weather span:first-child::before {
+  content: "날씨 / 온도 - ";
+  margin-right: 5px;
+}
+#weather span:last-child::before {
+  content: "지역 - ";
+  margin-right: 5px;
+}
