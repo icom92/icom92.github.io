@@ -52,6 +52,11 @@ h2 {
   background-color: #fff;
 }
 
+#greeting {
+  font-size: 60px;
+  margin: 20px auto;
+}
+
 /* TODO LIST */
 .todo {
   position: fixed;
