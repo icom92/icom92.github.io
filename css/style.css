@@ -52,7 +52,7 @@ h2 {
   background-color: #fff;
 }
 
-#greeting {
+h1#greeting {
   font-size: 60px;
   margin: 20px auto;
 }
